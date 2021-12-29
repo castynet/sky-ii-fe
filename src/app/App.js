@@ -1,5 +1,9 @@
-function App() {
-  return <></>;
-}
+import HeadingBar from "./Components/HeadingBar/HeadingBar";
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <HeadingBar />
+    </>
+  );
+}
