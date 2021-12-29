@@ -1,4 +1,4 @@
-import * as styles from "./styles";
+import * as styles from "./Styles";
 import { Icons } from "app/Elements";
 
 export default function HeaderBar() {

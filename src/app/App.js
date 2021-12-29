@@ -1,4 +1,4 @@
-import HeaderBar from "./Components/headingBar/headingBar.jsx";
+import HeaderBar from "./Components/HeadingBar/HeadingBar";
 
 export default function App() {
   return (
