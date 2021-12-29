@@ -1,7 +1,7 @@
 import * as styles from "./Styles";
 import { Icons } from "app/Elements";
 
-export default function HeaderBar() {
+export default function HeadingBar() {
   return (
     <>
       <styles.Wrapper>
