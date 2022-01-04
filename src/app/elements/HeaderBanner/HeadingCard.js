@@ -20,7 +20,7 @@ const HeadingCard = ({ title, author, heading, details }) => {
 
 const Banner = styled.div`
   background: #f6f5ff;
-  width: 1920px;
+  width: 100%;
   height: 286px;
 `;
 const BannerTitle = styled.div`
