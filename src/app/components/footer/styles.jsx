@@ -12,7 +12,7 @@ export const Footer1 = styled.div`
   grid-auto-flow: column;
   grid-template-columns: repeat(4, 1fr);
   background-color: #EEEFFB;
-  padding: 30px 50px 20px 30px;
+  padding: 30px 20px 20px 150px;
 `;
 export const Footer2 = styled.div`
   display: grid;
