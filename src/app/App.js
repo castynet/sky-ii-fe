@@ -1,9 +1,20 @@
-import HeadingBar from "./Components/HeadingBar/HeadingBar";
 
+import React from "react";
+
+//import from components
+import HeadingBar from "./Components/HeadingBar/HeadingBar";
+import Card from "./components/Cardscomponent/Card";
+//import from elements
+import Heading from "./elements/HeaderBanner/Heading";
 export default function App() {
   return (
-    <>
-      <HeadingBar />
-    </>
+    <div>
+    <HeadingBar />
+      <Card />
+      <Heading />
+    </div>
   );
 }
+
+
+
