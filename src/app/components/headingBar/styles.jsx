@@ -14,6 +14,7 @@ export const Contact = styled.div`
   display: flex;
   flex-direction: row;
   gap: 48px;
+
   a {
     font-family: var(--heading-font);
     color: var(--white);
