@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marcellus&display=swap");
 
 :root {
+
+    --purple: #7e33e0;
+    --pink: #fb2e86;
+    --off-navy-blue: #3f509e;
+    --navy-blue: #151875;
+    --off-purple: #9f63b5;
+    --red: #fb2448;
+    --blue: #2f1ac4;
+    --sky-blue: linear-gradient(121.53deg, #f3f9ff 0%, #f1f0ff 100%);
+    --pantone-blue: #e0d3f5;
+    --off-blue: #151875;
+    --body-font: "Lato", sans-serif;
+    --heading-font: "Josefin Sans", sans-serif;
+
   --purple: #7e33e0;
   --pink: #fb2e86;
   --off-navy-blue: #3f509e;
@@ -17,7 +31,7 @@
 }
 
 body {
-  font-family: var(--body-font);
+    font-family: var(--body-font);
 }
 
 h1,
@@ -27,11 +41,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
+    font-family: var(--heading-font);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.articlecard-info {
+  font-family: var(--body-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+span {
+    color: var(--pink);
 }
