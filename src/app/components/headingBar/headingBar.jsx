@@ -1,5 +1,5 @@
 import * as styles from "./styles";
-import {Icons} from "../../elements/icons/icons";
+import { Icons } from "app/elements/index";
 
 export default function HeadingBar() {
   return (

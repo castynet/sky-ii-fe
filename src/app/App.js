@@ -1,24 +1,20 @@
-import React from 'react'
-import HeadingBar from "./components/HeadingBar/headingBar";
-import Footer from './components/footer/footer'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Sofa from './components/promoComponent/Sofa';
+import React from "react";
 
-//import from components
-import HeadingBar from "./Components/HeadingBar/HeadingBar";
-import Card from "./components/Cardscomponent/Card";
-//import from elements
-import Heading from "./elements/HeaderBanner/Heading";
+import HeadingBar from "app/components/headingBar/headingBar";
+import Footer from "app/components/footer/footer";
+import Sofa from "app/components/promoComponent/Sofa";
+import Card from "app/components/cards/Card";
 
-const App = () => {
+import Heading from "app/elements/headingBanner/Heading";
+
+export default function App() {
   return (
-    <div>
+    <>
       <Heading />
-      <Sofa/>
+      <Sofa />
       <HeadingBar />
       <Card />
-     <Footer/>
-    </div>
+      <Footer />
+    </>
   );
 }
-
