@@ -13,7 +13,7 @@ export default function HeadingBar() {
             <Icons.Phone size="18" /> +254 743 665 574
           </a>
         </styles.Contact>
-        <styles.Menu>
+        <styles.Menu data-testid='menu'>
           <select name="lang" id="lang">
             <option>English</option>
             <option>Swahili</option>
@@ -31,7 +31,7 @@ export default function HeadingBar() {
           <a href="/">
             Wishlist <Icons.Heart size="18" />
           </a>
-          <a href="/">
+          <a href="/" data-testid='cart'>
             <Icons.Cart size="20" />
           </a>
         </styles.Menu>

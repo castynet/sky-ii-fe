@@ -30,7 +30,7 @@ export default function PromoA() {
                 </Col>
                 <Col xs={6}>
                   <ul>
-                    <li>Clear lines & geometric figures</li>
+                    <li>Clear lines &amp; geometric figures</li>
                     <li>Material expose like metals</li>
                   </ul>
                 </Col>
@@ -52,6 +52,7 @@ export default function PromoA() {
               variant="top"
               style={{ width: "270px", marginLeft: "155px" }}
               src="/assets/couch2.jpg"
+              data-testid="promo-a-image"
             />
           </Col>
         </Row>

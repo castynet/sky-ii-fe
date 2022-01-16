@@ -9,13 +9,13 @@ import Heading from "app/elements/headingBanner/Heading";
 
 export default function App() {
   return (
-    <>
+    <div data-testid="app">
       <Heading />
       <PromoA />
       <PromoB />
       <HeadingBar />
       <Card />
       <Footer />
-    </>
+    </div>
   );
 }

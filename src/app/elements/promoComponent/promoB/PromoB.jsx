@@ -18,6 +18,7 @@ export default function PromoA() {
                 style={{ width: "270px" }}
                 variant="top"
                 src="/assets/couch3.jpeg"
+                data-testid="promo-b-image"
               />
             </Col>
             <Col md={6}>
