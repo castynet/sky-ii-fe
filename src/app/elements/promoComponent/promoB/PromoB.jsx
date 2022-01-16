@@ -1,7 +1,7 @@
 import { Card, Button, Col, Row } from "react-bootstrap";
 import * as styles from "./Styles.PromoB";
 
-export default function PromoA() {
+export default function PromoB() {
   return (
     <styles.Wrapper>
       <Row style={{ color: "#151875" }}>
@@ -26,7 +26,7 @@ export default function PromoA() {
                 <Card.Title>
                   Unique Features of Latest and Trending Products
                 </Card.Title>
-                <Card.Text>
+                <div>
                   <ul style={{ fontSize: "12px" }}>
                     <li style={{ color: "#fb2e86" }}>
                       <p style={{ color: "#151875" }}>
@@ -46,7 +46,7 @@ export default function PromoA() {
                       </p>
                     </li>
                   </ul>
-                </Card.Text>
+                </div>
                 <Row>
                   <Col>
                     <Button
