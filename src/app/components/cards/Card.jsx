@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 
 const Card = () => {
@@ -14,13 +13,13 @@ const Card = () => {
           </picture>
           <Floatingsection>
             <div className="cart">
-              <i class="bx bx-cart"></i>
+              <i className="bx bx-cart"></i>
             </div>
             <div className="zoom">
-              <i class="bx bx-zoom-in"></i>
+              <i className="bx bx-zoom-in"></i>
             </div>
             <div className="heart">
-              <i class="bx bx-heart"></i>
+              <i className="bx bx-heart"></i>
             </div>
           </Floatingsection>
         </Cardsection>
