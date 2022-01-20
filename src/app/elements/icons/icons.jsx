@@ -3,6 +3,9 @@ import { PhoneCallOutline } from "@styled-icons/evaicons-outline/PhoneCallOutlin
 import { ArrowIosDownwardOutline } from "@styled-icons/evaicons-outline/ArrowIosDownwardOutline";
 import { Heart } from "@styled-icons/boxicons-regular/Heart";
 import { ShoppingCartOutline } from "@styled-icons/evaicons-outline/ShoppingCartOutline";
+import { Facebook } from "@styled-icons/bootstrap/Facebook";
+import { Twitter } from "@styled-icons/entypo-social/Twitter";
+import { Instagram } from "@styled-icons/entypo-social/Instagram";
 
 export const Icons = {
   Email: EmailOutline,
@@ -10,4 +13,8 @@ export const Icons = {
   More: ArrowIosDownwardOutline,
   Heart: Heart,
   Cart: ShoppingCartOutline,
+  Facebook: Facebook,
+  Twitter: Twitter,
+  Instagram: Instagram
 };
+

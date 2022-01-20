@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Footer = styled.div`
-  position: fixed;
   bottom: 0;
   width: 100%;
 `;
@@ -41,7 +40,7 @@ export const Input = styled.input`
   padding: 0.75em 1em;
   border: none;
   border-radius: 3px;
-  color: #F6F6FD;
+  color: #000000;
   
 `;
 export const p = styled.p`

@@ -1,10 +1,5 @@
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as styles from "./styles";
+import { Icons } from "../../elements/icons/icons"
 
 
 export default function Footer() {
@@ -54,9 +49,9 @@ export default function Footer() {
                 Webecy - All rights Reserved
             </styles.p>
         <div>
-          <styles.Link href="#"><FontAwesomeIcon icon={faFacebook} size="2px" /></styles.Link>
-          <styles.Link href="#"><FontAwesomeIcon icon={faTwitter} size="2px" /></styles.Link>
-          <styles.Link href="#"><FontAwesomeIcon icon={faInstagram} size="2px" /></styles.Link>
+          <styles.Link href="#"><Icons.Facebook size="18" /></styles.Link>
+          <styles.Link href="#"><Icons.Instagram size="18" /></styles.Link>
+          <styles.Link href="#"><Icons.Twitter size="18" /></styles.Link>
         </div>
         </styles.Footer2>
       </styles.Footer>
