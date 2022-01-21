@@ -13,10 +13,11 @@ export default function App() {
     <div data-testid="app">
       <HeadingBar />
       <Heading />
+      <LatestUpdates/>
       <Card />
       <PromoB />
       <PromoA />
-      <LatestUpdates/>
+     
       <Footer />
      
      
