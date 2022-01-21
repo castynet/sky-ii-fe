@@ -18,7 +18,7 @@ export default function LatestUpdates() {
           </Col>
           <Col style={{paddingTop:"40px", textAlign:"center", color: "#151875"}}>
             <h4>Get Latest Updates By Subscribing </h4>
-            <h6> To Our Newsletter</h6>
+            <h6>To Our Newsletter</h6>
             <br/>
             <Button 
               variant="secondary"
