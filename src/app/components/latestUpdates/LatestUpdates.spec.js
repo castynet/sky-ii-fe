@@ -14,5 +14,5 @@ test("is all the content present in LatestUpdates?", () => {
   );
   expect(screen.getByText("Get Latest Updates By Subscribing")).toBeInTheDocument();
   expect(screen.getByText("Shop Now")).toBeInTheDocument();
-  expect(screen.getByTestId("To Our Newsletter")).toBeInTheDocument();
+
 });
