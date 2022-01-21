@@ -17,7 +17,7 @@ export default function App() {
       <PromoB />
       <PromoA />
       <LatestUpdates/>
-      {/* <Footer /> */}
+      <Footer />
      
      
       
