@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import LatestUpdates from ".LatestUpdates";
+import LatestUpdates from "./LatestUpdates";
 import { StateProvider } from "app/Context";
 import { BrowserRouter } from "react-router-dom";
 
