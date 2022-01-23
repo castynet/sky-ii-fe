@@ -7,17 +7,19 @@ import Card from "app/components/cards/Card";
 
 import Heading from "app/elements/headingBanner/Heading";
 import LatestUpdates from "./components/latestUpdates/LatestUpdates";
+import CarouselComponent from "./components/carouselComp/CarouselComponent";
 
 export default function App() {
   return (
     <div data-testid="app">
-      <HeadingBar />
+      <CarouselComponent/>
+      {/* <HeadingBar />
       <Heading />
       <LatestUpdates/>
       <Card />
       <PromoB />
       <PromoA />
-      <Footer />
+      <Footer /> */}
      
      
       
