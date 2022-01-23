@@ -17,7 +17,6 @@ export default function App() {
       <Card />
       <PromoB />
       <PromoA />
-     
       <Footer />
      
      
