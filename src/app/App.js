@@ -6,16 +6,21 @@ import { PromoA, PromoB } from "app/elements";
 import Card from "app/components/cards/Card";
 
 import Heading from "app/elements/headingBanner/Heading";
+import LatestUpdates from "./components/latestUpdates/LatestUpdates";
 
 export default function App() {
   return (
     <div data-testid="app">
-      <Heading />
-      <PromoA />
-      <PromoB />
       <HeadingBar />
+      <Heading />
+      <LatestUpdates/>
       <Card />
+      <PromoB />
+      <PromoA />
       <Footer />
+     
+     
+      
     </div>
   );
 }
