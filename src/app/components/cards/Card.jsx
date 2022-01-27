@@ -1,5 +1,5 @@
 import * as styles from "./CardStyles";
-
+import { Icons } from "../../elements/icons/icons";
 const Card = () => {
   return (
     <div>
@@ -13,13 +13,13 @@ const Card = () => {
           </picture>
           <styles.FloatingSection data-testid="floatingsection">
             <div className="cart">
-              <i class="bx bx-cart"></i>
+              <Icons.Cart size="18" />
             </div>
             <div className="zoom">
-              <i class="bx bx-zoom-in"></i>
+              <Icons.ZoomIn size="18" />
             </div>
             <div className="heart">
-              <i class="bx bx-heart"></i>
+              <Icons.Heart size="18" />
             </div>
           </styles.FloatingSection>
         </styles.CardSection>

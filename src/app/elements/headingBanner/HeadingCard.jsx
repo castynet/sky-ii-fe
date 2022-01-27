@@ -1,4 +1,4 @@
-import * as styles from "./HeaderStyle";
+import * as styles from "./Header.Style";
 const HeadingCard = ({ title, author, heading, details }) => {
   return (
     <styles.Banner data-testid="banner">
