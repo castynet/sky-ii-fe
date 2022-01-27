@@ -1,5 +1,5 @@
 import * as styles from "./CardStyles";
-import { Icons } from "../../elements/icons/icons";
+import { Icons } from "app/elements";
 const Card = () => {
   return (
     <div>
