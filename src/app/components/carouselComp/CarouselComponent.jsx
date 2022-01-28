@@ -1,47 +1,85 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import {Carousel, Button} from 'react-bootstrap';
 
 const CarouselComponent = () => {
     return <div>
-        <h1>Carousel Component</h1>
+        {/* <h1>Carousel Component</h1> */}
         <div style={{ display: 'block', width: "auto" }}>
             <Carousel>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        style={{width:"auto", height:700}}
-                        src="assets/wine8.jpg"
+                        style={{width:"auto", height:600}}
+                        src="assets/wine11.jpg"
                         alt="First slide"
                     />
+                   
+
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Best Wines in Town</h3>
+                        <p>New brands in. Come grab a glass! </p>
+                        <Button 
+              variant="secondary"
+              style={{
+                backgroundColor: "#fb2e86",
+                outline: "none",
+                border: "none",
+                alignItems: "center",
+              }}
+            >
+              Shop Now
+            </Button>
+              
                     </Carousel.Caption>
                 </Carousel.Item>
+              
+               
                 <Carousel.Item>
                     <img
-                      style={{width:"auto", height:700}}
+                      style={{width:"auto", height:600}}
                         className="d-block w-100"
                         src="assets/wine4.jpg"
                         alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3><i>Cheers!!!</i></h3>
+                        <p>They are here! Put your wine on spotlight!</p>
+                        <Button 
+              variant="secondary"
+              style={{
+                backgroundColor: "#fb2e86",
+                outline: "none",
+                border: "none",
+                alignItems: "center",
+              }}
+            >
+              Shop Now
+            </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                      style={{width:"1400"}}
+                      style={{width:"auto", height:600}}
                         className="d-block w-100"
                         src="assets/wine1.jpg"
                         alt="Third slide"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h3>Tastes Like Happiness!</h3>
+                        <p>Unbox! Uncork! Enjoy!Bringing you happpiness at your doorstep!</p>
+                        <Button 
+              variant="secondary"
+              style={{
+                backgroundColor: "#fb2e86",
+                outline: "none",
+                border: "none",
+                alignItems: "center",
+              }}
+            >
+              Shop Now
+            </Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
