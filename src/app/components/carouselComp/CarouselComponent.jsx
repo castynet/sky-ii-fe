@@ -9,8 +9,8 @@ const CarouselComponent = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        style={{width:"auto", height:600}}
-                        src="assets/wine11.jpg"
+                        style={{width:"auto", height:500}}
+                        src="assets/wine8.jpg"
                         alt="First slide"
                     />
                    
@@ -36,7 +36,7 @@ const CarouselComponent = () => {
                
                 <Carousel.Item>
                     <img
-                      style={{width:"auto", height:600}}
+                      style={{width:"auto", height:500}}
                         className="d-block w-100"
                         src="assets/wine4.jpg"
                         alt="Second slide"
@@ -60,7 +60,7 @@ const CarouselComponent = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                      style={{width:"auto", height:600}}
+                      style={{width:"auto", height:500}}
                         className="d-block w-100"
                         src="assets/wine1.jpg"
                         alt="Third slide"

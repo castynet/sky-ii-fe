@@ -12,14 +12,14 @@ import CarouselComponent from "./components/carouselComp/CarouselComponent";
 export default function App() {
   return (
     <div data-testid="app">
+      <HeadingBar />
+      {/* <Heading /> */}
       <CarouselComponent/>
-      {/* <HeadingBar />
-      <Heading />
       <LatestUpdates/>
       <Card />
       <PromoB />
       <PromoA />
-      <Footer /> */}
+      {/* <Footer /> */}
      
      
       
