@@ -1,12 +1,14 @@
 import React from 'react';
 import {Carousel, Button} from 'react-bootstrap';
+import * as styles from "./Styles.CarouselComponent";
 
 const CarouselComponent = () => {
     return <div>
         {/* <h1>Carousel Component</h1> */}
         <div style={{ display: 'block', width: "auto" }}>
             <Carousel>
-                <Carousel.Item>
+                <Carousel.Item 
+                >
                     <img
                         className="d-block w-100"
                         style={{width:"auto", height:500}}
@@ -33,7 +35,7 @@ const CarouselComponent = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
               
-               
+
                 <Carousel.Item>
                     <img
                       style={{width:"auto", height:500}}
